@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [HybridTest]">
+  <listeners>
+    <listener class-name="com.internetbanking.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="BankingApp test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.internetbanking.testcases.TC_LoginTest_001">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.internetbanking.testcases.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- BankingApp test(failed) -->
+</suite> <!-- Failed suite [HybridTest] -->

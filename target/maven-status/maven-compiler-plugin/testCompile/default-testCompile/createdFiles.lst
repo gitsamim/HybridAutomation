@@ -1,0 +1,9 @@
+com\internetbanking\testcases\TC_LoginDDT_002.class
+com\internetbanking\pageobject\LoginPage.class
+com\internetbanking\testcases\BaseClass.class
+com\internetbanking\testcases\TC_AddCustomerTest_003.class
+com\internetbanking\utilities\Reporting.class
+com\internetbanking\utilities\ReadConfig.class
+com\internetbanking\utilities\XLUtils.class
+com\internetbanking\pageobject\AddCustomerPage.class
+com\internetbanking\testcases\TC_LoginTest_001.class
